@@ -1,0 +1,118 @@
+
+.MessageContainer {
+    background: linear-gradient(180deg, #0a001b 0.03%, #11002c 0.04%, #000 100%);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    flex: 1;
+    padding: 23px 23px 0 40px;
+    overflow-y: auto;
+    
+}
+
+.MessageBubbleContainer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    
+}
+
+.MessageBubble {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0 34px 0;
+    padding: 12px 13px 10px 26px;
+    border-radius: 16px 16px 16px 0px;
+    background: #3c3c3c;
+    /* max-width: 66%; */
+    max-width: 86%;
+    
+}
+
+.MessageBubble.isUsers {
+    text-align: left;
+    border-radius: 16px 16px 0px 16px;
+    background: #0075d8;
+}
+
+.MessageBubble.hasImage {
+   
+    padding: 7px;
+    /* border-radius: 16px; */
+   
+}
+.MessageBubble.isUsers.hasImage {
+    border: 1px solid #0075d8;
+    /* padding: 7px; */
+    padding: 7px 0 0 10px ;
+    border-radius: 16px;
+
+}
+.MessageBubble.hasVideo {
+    padding: 7px;
+    
+    /* border-radius: 16px; */
+}
+.MessageBubble.isUsers.hasVideo {
+    border: 1px solid #0075d8;
+    padding: 7px 0 0 10px;
+     
+    border-radius: -1px;
+
+}
+.MsgSeenTick {
+    
+        position: absolute;
+        right: 0;
+        bottom: -22px;
+}
+
+
+
+.MessageTime {
+    padding-top: 1px;
+    margin-top: 8px;
+    position: absolute;
+    color: #aaa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.28px;
+    text-align: right;
+    right:0;
+}
+
+.isUsers {
+    right: unset;
+    left:0 !important
+}
+.msgimage {
+
+margin-right: 10px;
+    width: fit-content;
+        height: 230px;
+border-radius: 12px;
+
+        :last-child {
+margin-right: 0px;
+        }
+        
+    
+}
+.msgvideo {
+
+    margin-right: 10px;
+    width: fit-content;
+    /* width: 188px; */
+    border-radius: 12px;
+    height: 230px;
+
+
+    :last-child {
+        margin-right: 0px;
+    }
+
+
+}

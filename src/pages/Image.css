@@ -1,0 +1,27 @@
+.image-container{
+    position: relative;
+    height: 64px;
+    width: 64px;
+    margin-right: 11px;
+   
+}
+.image{
+    border-radius: 50%;
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+}
+.active{
+    position: absolute;
+        margin-left: 43px;
+        bottom: 1%;
+       
+        width: 10px;
+        height: 10px;
+        background-color: #08ad2c;
+        border-radius: 50%;
+       
+        border: 1px solid;
+        border-color: #ffffff;
+
+}
